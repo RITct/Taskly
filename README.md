@@ -4,6 +4,8 @@
 
 A new Flutter app project to manage tasks.
 
+[![Let's fund issues in this repository](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/JobinBiju/Taskly)
+
 # Getting Started
 
 A few resources to get you started if this is your first Flutter project:
@@ -15,43 +17,59 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+# Installation
+
+- Install & setup flutter through above documentation.
+- Fork & then clone this repository.
+- Open the project folder in the IDE where flutter is setup.
+- Connect a physical device or run the app via emulator.
+- Or you can find the apk files in the releases section of this repository.
+
+# Features
+
+- Add, Update & Delete tasks.
+- Cool splash screen animation.
+- Colorful task icons.
+- Supports 8 amazing themes.
+- Uses local database ([Hive](https://docs.hivedb.dev/)).
+- Since it uses local DB, Privacy is ensured.
+- Daily tasks are sorted & shown seperately.
+- Dashboard with current & upcoming tasks shown.
+- Option to repeat tasks daily.
+- Drink Water Notification feature that display a notification to drink water once every hour
+- Fast, Compact & Easy to Use
+
 # App UI
 
-App UI are given below.
-
-## Screens
+## All Screens
 
 <br>
 
-| <img align="left" alt="Splash Screen" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/splash.jpg" width="200px" /> | <img align="left" alt="Welcome Screen" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/welcome.jpg" width="200px" /> | <img align="left" alt="Login Screen" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/login.jpg" width="200px" /> | <img align="left" alt="Dashboard" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/yellowLight.jpg" width="200px" /> |
-| ----- | ----- | ----- | ----- |
+| <img align="left" alt="Splash Screen" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/splash.jpg" width="250px" /> | <img align="left" alt="Welcome Screen" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/welcome.jpg" width="250px" /> | <img align="left" alt="Login Screen" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/login.jpg" width="250px" /> | <img align="left" alt="Dashboard" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/yellowLight.jpg" width="250px" /> |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-| <img align="left" alt="Daily Tasks" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/dailyTasks.jpg" width="200px" /> | <img align="left" alt="All Tasks" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/allTasks.jpg" width="200px" /> | <img align="left" alt="Profile" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/profile.jpg" width="200px" /> | <img align="left" alt="Settings" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/settings.jpg" width="200px" /> |
-| ----- | ----- | ----- | ----- |
+| <img align="left" alt="Daily Tasks" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/dailyTasks.jpg" width="250px" /> | <img align="left" alt="All Tasks" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/allTasks.jpg" width="250px" /> | <img align="left" alt="Profile" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/profile.jpg" width="250px" /> | <img align="left" alt="Settings" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/settings.jpg" width="250px" /> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 
-| <img align="left" alt="Edit Account" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/editAccount.jpg" width="200px" /> | <img align="left" alt="Add Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/addTaskFn.jpg" width="200px" /> | <img align="left" alt="Icon Selection" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/iconSelection.jpg" width="200px" /> | <img align="left" alt="Update Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/updateTaskFn.jpg" width="200px" /> |
-| ----- | ----- | ----- | ----- |
+| <img align="left" alt="Edit Account" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/editAccount.jpg" width="250px" /> | <img align="left" alt="Add Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/addTaskFn.jpg" width="250px" /> | <img align="left" alt="Icon Selection" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/iconSelection.jpg" width="250px" /> | <img align="left" alt="Update Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/updateTaskFn.jpg" width="250px" /> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-| <img align="left" alt="Edit Account" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/editOption.jpg" width="200px" /> | <img align="left" alt="Add Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/deleteOption.jpg" width="200px" /> | <img align="left" alt="Icon Selection" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/confirmDelete.jpg" width="200px" /> | <img align="left" alt="Update Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/confirmLogOut.jpg" width="200px" /> |
-| ---- | ---- | ---- | ---- |
-
-
+| <img align="left" alt="Edit Account" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/editOption.jpg" width="250px" /> | <img align="left" alt="Add Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/deleteOption.jpg" width="250px" /> | <img align="left" alt="Icon Selection" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/confirmDelete.jpg" width="250px" /> | <img align="left" alt="Update Task Sheet" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/confirmLogOut.jpg" width="250px" /> |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <div> </div>
-<hr>
+<br>
 <br>
 
-
-
-## Different Themes
+## Themes Available
 
 <br>
 
-| <img align="left" alt="Yellow Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/yellowLight.jpg" width="200px" /> | <img align="left" alt="Red Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/redLight.jpg" width="200px" /> | <img align="left" alt="Teal Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/tealLight.jpg" width="200px" /> | <img align="left" alt="Green Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/greenLight.jpg" width="200px" /> |
-| ---- | ---- | ---- | ---- |
+| <img align="left" alt="Yellow Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/yellowLight.jpg" width="250px" /> | <img align="left" alt="Red Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/redLight.jpg" width="250px" /> | <img align="left" alt="Teal Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/tealLight.jpg" width="250px" /> | <img align="left" alt="Green Light" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/greenLight.jpg" width="250px" /> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-| <img align="left" alt="Yellow Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/yellowDark.jpg" width="200px" /> | <img align="left" alt="Red Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/redDark.jpg" width="200px" /> | <img align="left" alt="Teal Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/tealDark.jpg" width="200px" /> | <img align="left" alt="Green Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/greenDark.jpg" width="200px" /> |
-| ---- | ---- | ---- | ---- |
+| <img align="left" alt="Yellow Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/yellowDark.jpg" width="250px" /> | <img align="left" alt="Red Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/redDark.jpg" width="250px" /> | <img align="left" alt="Teal Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/tealDark.jpg" width="250px" /> | <img align="left" alt="Green Dark" src="https://raw.githubusercontent.com/JobinBiju/Taskly/main/assets/readmeFiles/greenDark.jpg" width="250px" /> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <br>
 
@@ -64,4 +82,4 @@ App UI are given below.
 
 ## Support
 
-Support this project by giving a star, sharing with your friends.
+Support this project by giving a star and sharing with your friends.
